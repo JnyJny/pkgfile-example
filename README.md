@@ -9,15 +9,15 @@ is use the `__file__` variable in a loader-type function:
 from pathlib import Path
 
 def path_for_file(name: str) -> Path:
-	"""Return the path for a file."""
-	parent = Path(__file__).resolve().parent
+    """Return the path for a file."""
+    parent = Path(__file__).resolve().parent
 	
-	target = parent / name
+    target = parent / name
 	
-	if not target.exists():
-		raise FileNotFoundError(target)
+    if not target.exists():
+        raise FileNotFoundError(target)
 		
-	return target
+    return target
 ```
 
 This method is okay but is kind of fragile and the more code we write,
