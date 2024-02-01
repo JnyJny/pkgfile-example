@@ -12,7 +12,7 @@ from pathlib import Path
 def path_for_file(name: str) -> Path:
     """Return the path for a file with the given name."""
 	
-	target = Path(__file__).resolve().parent / name
+    target = Path(__file__).resolve().parent / name
 	
     if not target.exists():
         raise FileNotFoundError(target)
