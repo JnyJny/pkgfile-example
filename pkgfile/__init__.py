@@ -1,2 +1,4 @@
 """
 """
+
+_package = 'pkgfile'
