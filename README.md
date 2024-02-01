@@ -1,4 +1,4 @@
-# pkgfile - An Example on How to Retreive Data Files Embedded in Packages
+# pkgfile - An Example of How to Retreive Data Files Embedded in Packages
 
 There a couple of different strategies that we can employ to locate data
 files that have been included in a python package. The most common strategy
